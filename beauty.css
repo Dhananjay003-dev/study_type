@@ -1,0 +1,126 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    /* Light gray background */
+    background-image: url('background-image-url.jpg');
+    /* Replace 'background-image-url.jpg' with the actual URL of your background image */
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    background-color: #90ee90;
+    /* Sage green */
+    padding: 20px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    /* Blurry effect */
+}
+
+.navbar-heading {
+    color: #3f413c;
+    /* Dark green text color */
+}
+
+#quiz-container {
+    max-width: 600px;
+    margin: 30px auto 30px auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Semi-transparent white background */
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    /* Soft shadow */
+}
+
+h1 {
+    color: #3f413c;
+    /* Dark green heading color */
+    text-align: center;
+}
+
+#question {
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: #3f413c;
+    /* Dark green text color */
+    text-align: center;
+}
+
+#options button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #eaeed1;
+    /* Primary color background */
+    color: #3f413c;
+    /* Dark green button text color */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+}
+
+#options button:hover {
+    background-color: #d2d5a4;
+    /* Darker primary color on hover */
+    transform: scale(1.05);
+    /* Scale up on hover */
+}
+
+#next-btn,
+#restart-btn {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #55af61;
+    /* Light green button background color */
+    color: #ffffff;
+    /* White button text color */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+}
+
+#next-btn:hover,
+#restart-btn:hover {
+    background-color: #4a9b52;
+    /* Darker green on hover */
+    transform: scale(1.05);
+    /* Scale up on hover */
+}
+
+#restart-btn {
+    margin-top: 15px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #90ee90;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    backdrop-filter: blur(10px);
+}
+
+#result {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #6d6f63;
+    /* Grayish green text color */
+    text-align: center;
+}
+
+.disclaimer {
+    text-align: center;
+    margin-top: 20px;
+    color: #6d6f63;
+    /* Grayish green text color */
+}
